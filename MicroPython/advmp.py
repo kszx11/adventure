@@ -1,3 +1,4 @@
+# Written by Kimball Springall
 """
 advmp.py -- MicroPython text adventure on Raspberry Pi Pico W
 Port of adv.py: immersive exploration and NPC chat via OpenAI Chat API
