@@ -2,7 +2,7 @@
 '
 '--- User configuration ------------------------------------------------
 APIKEY$   = "YOUR_OPENAI_API_KEY"
-MODEL$    = "gpt-3.5-turbo"
+MODEL$    = "gpt-4.1-mini"
 APIURL$   = "https://api.openai.com/v1/chat/completions"
 SYSTEM$   = "You are Realmweaver, the narrator and engine of an immersive, open-ended text adventure. " + _
            "Whenever you describe people in a scene, ALWAYS give them: 1) A full name and title/role; " + _
