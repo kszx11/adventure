@@ -1,4 +1,3 @@
-# Written by Kimball Springall
 # Standard libs
 import os
 import sys
