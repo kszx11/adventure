@@ -79,10 +79,6 @@ def call_openai(api_key, history):
             "temperature":TEMPERATURE, "top_p":TOP_P,
             "max_tokens":MAX_TOKENS}
     try:
-        # print("Calling OpenAI API...")
-        # print("Request body:", ujson.dumps(body))
-        # print("Headers:", hdr)
-        # print("URL:", url)
         r = urequests.post(url, headers=hdr, data=ujson.dumps(body))
     except Exception as e:
         print("API error", e)
@@ -174,3 +170,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
